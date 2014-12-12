@@ -5,6 +5,10 @@ Serious Sam HD: The Second Encounter dedicated server runner.
 
 This used to be hosted on servergui.codeplex.com.
 
+## Download
+
+You can find all releases here: https://github.com/AngeloG/ServerGUIHD/releases/
+
 ## Install
 
 1. Put the exe in `Steam\steamapps\common\serious sam hd the second encounter`.
