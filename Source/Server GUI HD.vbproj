@@ -88,6 +88,10 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
     <Compile Include="Server GUI HD\AssemblyInfo.vb" />
     <Compile Include="Server GUI HD\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -153,6 +157,10 @@
   <ItemGroup>
     <Content Include="Database.ico" />
     <Content Include="Icon.ico" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
